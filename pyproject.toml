@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "fire"
+version = "0.6.0"
+description = "A library for automatically generating command line interfaces."
+authors = ["David Bieber <dbieber@google.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+six = "^1.16.0"
+termcolor = "^2.4.0"
+
+[tool.poetry.group.dev.dependencies]
+hypothesis = "^6.98.0"
+mock = "^5.1.0"
+python-Levenshtein = "^0.25.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
